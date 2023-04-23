@@ -18,8 +18,8 @@
       <a class="active" href="#home"
         ><i class="fa-regular fa-square"></i>RobloFrance</a
       >
-      <a href="#contact">Évenements</a>
-      <a href="#about">À propos</a>
+      <!-- <a href="contact.html">Évenements</a> -->
+      <a href="#about">Annonces</a>
     </div>
     <div class="main-container">
       <h1>🎲 RobloFrance</h1>
@@ -31,8 +31,13 @@
         <button
           data-hover="Merci!"
           class="btn"
-          onclick="window.location.href='https://discord.gg/roblofrance';"
+          onclick="openNewTab()"
         >
+        <script type="text/javascript">
+          function openNewTab() {
+            window.open('https://discord.gg/roblofrance');
+          }
+        </script>
           <div><i class="fa-brands fa-discord"></i>Rejoins nous</div>
         </button>
       </section>

@@ -78,10 +78,12 @@ body {
 
 .bottomtitle {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5em;
   color: #000;
-  padding: 0 1%;
-  padding-top: 3%;
+  padding: 0 50px;
+  padding-top: 30px;
+  max-width: 60ch;
+  margin: auto;
 }
 
 section.container {
@@ -158,14 +160,15 @@ p {
   background-color: #171821;
   display: flex;
   margin-bottom: -15px;
+  justify-content: space-around;
 }
 
 .avantage,
 .moderation,
 .diversite {
   padding: 7% 2% 7% 1%;
-  width: 33.33%;
-  text-align: center;
+  /* width: 33.33%; */
+  text-align: center; 
 }
 
 .crown-box,
@@ -224,9 +227,11 @@ p {
   .module-container-list {
     margin-top: 0px;
     background-color: #171821;
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-bottom: -15px;
     width: 100%;
+    align-items: center;
   }
 
   .avantage,
@@ -235,6 +240,11 @@ p {
     padding: 5% 0;
     width: 100%;
     text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
   }
 
   .left-section {
@@ -261,6 +271,8 @@ p {
   .social-icons {
     background-color: #242533;
     border-radius: 10px;
+    width: 50%;
+    margin: auto !important;
     margin-top: 4% !important;
   }
 
