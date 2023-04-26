@@ -421,22 +421,9 @@ hr {
   transition: 0.5s all ease;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 .tchoupi:hover {
   border-radius: 7px;
   background-color: blue;
   color: black;
   transition: 0.5s all ease;
-  animation: gradient 3s ease infinite;
 }
