@@ -1,18 +1,12 @@
-function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
+const doc = document;
+const menuOpen = doc.querySelector(".menu");
+const menuClose = doc.querySelector(".close");
+const overlay = doc.querySelector(".overlay");
 
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 100;
+menuOpen.addEventListener("click", () => {
+  overlay.classList.add("overlay--active");
+});
 
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-  }
-}
-
-window.addEventListener("scroll", reveal);
-
+menuClose.addEventListener("click", () => {
+  overlay.classList.remove("overlay--active");
+});
