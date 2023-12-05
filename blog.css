@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(99, 211, 226);
+  background-color: rgb(84, 147, 248)
 }
 
 * {
@@ -219,6 +219,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgb(78, 78, 78);
+  border-radius: 15px;
 }
 
 .div3 {
@@ -230,6 +233,9 @@ header {
 
 .div3 img {
   width: 70%;
+  backdrop-filter: blur(20px);
+  border-radius: 15px;
+  border: 1px solid rgb(78, 78, 78);
 }
 
 .div4 {

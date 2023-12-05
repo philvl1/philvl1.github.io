@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("assets/gallery_4520_press_photos_911_sport_classic_/_F1A0988_le_02a-min.jpg")
+  background: url("assets/2021_911_gt3.jpg")
     no-repeat center center fixed;
   background-size: cover;
 }
@@ -173,6 +173,7 @@ header {
   position: absolute;
   margin: auto;
   color: white;
+  text-shadow: 1px 1px 2px black;
 }
 .console-underscore {
   display: inline-block;
