@@ -7,8 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("assets/2021_911_gt3.jpg")
-    no-repeat center center fixed;
+  background: url("assets/2021_911_gt3.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -128,11 +127,6 @@ header {
     right: 35px;
   }
 
-  body {
-    background: url(assets/gallery_4520_press_photos_911_sport_classic_/6F0A3964_ah_02a.jpg)
-      no-repeat center center fixed;
-    background-size: cover;
-  }
   #text {
     font-size: 0.5em;
   }
@@ -146,11 +140,11 @@ header {
   .menu {
     display: initial;
   }
-  body {
-    background: url(assets/gallery_4520_press_photos_911_sport_classic_/6F0A3964_ah_02a.jpg)
-      no-repeat center center fixed;
-    background-size: cover;
+
+  .console-container {
+    font-size: 20vw !important;
   }
+
   #text {
     font-size: 0.5em;
   }
@@ -161,12 +155,13 @@ header {
 }
 .console-container {
   font-family: "Montserrat";
-  font-size: 10em;
+  font-size: 10vw;
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
   height: 600px;
-  width: 100vw; display: flex; 
+  width: 100vw;
+  display: flex;
   justify-content: left;
   align-items: center;
   position: absolute;

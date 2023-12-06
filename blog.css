@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(84, 147, 248)
+  background-color: rgb(84, 147, 248);
 }
 
 * {
@@ -27,7 +27,7 @@ header {
 .overlay__content a {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -199,7 +199,19 @@ header {
 .secondparent ul {
   list-style-type: none;
   width: 50ch;
-  font-size: 18px;
+  font-size: 13px;
+  margin-left: -20px;
+}
+
+@media screen and (max-width: 850px) {
+  .secondparent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div1 p {
+    font-size: 13px !important;
+  }
 }
 
 .div1 {
@@ -207,22 +219,23 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
   font-weight: 500;
-  font-size: 25px;
   background-color: #24252a;
   color: white;
   border-radius: 15px;
+  padding: 5px;
 }
+
+.div1 p {
+  font-size: 20px;
+}
+
 .div2 {
   grid-area: 4 / 1 / 6 / 3;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  backdrop-filter: blur(20px);
-  border: 1px solid rgb(78, 78, 78);
-  border-radius: 15px;
 }
 
 .div3 {

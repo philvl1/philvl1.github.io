@@ -175,13 +175,29 @@ header {
 }
 
 .container div p {
-  width: 70ch;
+  max-width: 70%;
   color: white;
 }
 
 .div1 img {
   width: 10%;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .container div {
+    width: 80%;
+    padding: 10px;
+  }
+
 }
 
 .btn-4,
@@ -196,7 +212,7 @@ header {
 .btn-4 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: #000;
+  background-color: #24252a;
   background-image: none;
   color: #fff;
   cursor: pointer;
