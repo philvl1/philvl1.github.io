@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])
-consoleText(["Porsche", "Une Histoire,", "Le Future."], "text", [
+consoleText(["Porsche", "Une Histoire,", "Une Passion"], "text", [
   "white",
   "white",
   "white",
